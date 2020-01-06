@@ -1,7 +1,13 @@
 # Story Writing
----
+
 
 This repo serves to provide resources and clarity on the story writing process.
+
+In this Repo:
+
+1. Writing User Stories
+2. Story Pointing
+3. Story Splitting
 
 ## User Stories
 
@@ -30,10 +36,7 @@ Some things to keep in mind when writing User stories:
 - Title: [Persona name] should (not) be able to [overarching action]
 - Business/User Value: As [persona] I want to [action by user] so that [value or need met].
 
-
-
-
-
+---
 
 ## Story Pointing
 
@@ -84,3 +87,43 @@ You move forward with/point a story that scores at least +5 INVEST points *total
 |2 (Min for Chore & Spike) | No | No | Yes|
 |5 (Complex OR unknowns)| Yes | OR Yes | Yes |
 |8 (Complex AND unknown (DON’T DO IT!))| YES | AND YES | Yes |
+
+---
+
+## Story Splitting
+
+There are many techniques for splitting stories. Here are some of the most useful ones. There are more below if you need more ideas on splitting, but for a lot of cases these three patterns can get you started!
+
+- **Split by user roles**
+
+Teachers interact with instructional software differently from students. Administrators interact with a system differently from normal users. By defining the different roles in your system, you can split features and stories to address the unique needs of each role.
+
+- **Split by user personas**
+
+Even in the same role, different people interact with software in different ways. A power user may want lots of keyboard shortcuts. A casual user may want a lot of intuitive, hand-holdy forms of guidance. Handicapped/disabled users may need very different ways of interacting with the system, even though they are doing the same tasks as other users.
+
+- **Split by target device**
+
+You can’t assume that users are interacting with your system using a standard desktop. Various smartphones and other devices need to be considered in your stories. Splitting stories by device can provide a more natural experience for your users.
+
+### Split Conditions
+
+When a story has multiple items listed in the 'what' category, consider making each a separate story. When you see words like "and" or "or" ask yourself, are all these necessary right now?
+
+> Example:
+> 
+> User Story: As a customer I want to create an order and pay for the order using a credit card so I can get something to eat.
+> 
+> 1. As a customer I want to create an order
+> 2. As a customer I want to pay for my order using a credit card
+
+
+
+
+### Zero/One/Many
+
+With the zero/one/many approach, you ask these three questions:
+
+- What happens if we are dealing with nothing?
+- What happens if we are dealing with one thing?
+- What happens if we are dealing with many things?
