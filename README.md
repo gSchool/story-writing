@@ -21,21 +21,6 @@ The user story approach can lead to meaningful product discussions, both within 
 - User stories encourage participation by both technical and **non-technical members.** 
 - User stories help in **defining the entire product** — as a set of solid, properly prioritized stories. 
 
-### Writing User Stories
-
-Some things to keep in mind when writing User stories:
-
-1. User stories are _not_ tasks. A single story may require hundreds of single tasks in order to be delivered. Tasks are about implementation; user stories are about definition.
-2. Keep it high level, meaning, keep it simple!
-3. Understand who the user is and try to capture their profiles, points of view, expectations, and the associated 'pain points'.
-4. 
-
-
-
-
-- Title: [Persona name] should (not) be able to [overarching action]
-- Business/User Value: As [persona] I want to [action by user] so that [value or need met].
-
 ---
 
 ## Story Pointing
