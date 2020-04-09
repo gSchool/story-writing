@@ -87,10 +87,6 @@ Teachers interact with instructional software differently from students. Adminis
 
 Even in the same role, different people interact with software in different ways. A power user may want lots of keyboard shortcuts. A casual user may want a lot of intuitive, hand-holdy forms of guidance. Handicapped/disabled users may need very different ways of interacting with the system, even though they are doing the same tasks as other users.
 
-- **Split by target device**
-
-You can’t assume that users are interacting with your system using a standard desktop. Various smartphones and other devices need to be considered in your stories. Splitting stories by device can provide a more natural experience for your users.
-
 ### Split Conditions
 
 When a story has multiple items listed in the 'what' category, consider making each a separate story. When you see words like "and" or "or" ask yourself, are all these necessary right now?
@@ -103,12 +99,3 @@ When a story has multiple items listed in the 'what' category, consider making e
 > 2. As a customer I want to pay for my order using a credit card
 
 
-
-
-### Zero/One/Many
-
-With the zero/one/many approach, you ask these three questions:
-
-- What happens if we are dealing with nothing?
-- What happens if we are dealing with one thing?
-- What happens if we are dealing with many things?
