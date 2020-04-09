@@ -21,6 +21,27 @@ The user story approach can lead to meaningful product discussions, both within 
 - User stories encourage participation by both technical and **non-technical members.** 
 - User stories help in **defining the entire product** — as a set of solid, properly prioritized stories. 
 
+### Writing User Stories
+
+This is a template to aid in writing stories from features. These formats are training wheels for DPOs/anyone writing stories who isn’t a pro.
+
+**User Story:**<br>
+
+- Title: [Persona name] should (not) be able to [overarching action] <br>
+- Business/User Value: As [persona] I want to [action by user] so that [value or need met]. 
+
+**Acceptance Criteria**<br>
+
+GIVEN [necessary context and preconditions for story] <br>
+WHEN [action] <br>
+THEN [reaction] <br>
+
+**Dev Notes:**<br>
+[Relevant technical notes that developers may ask you to add to the story during weekly prep meeting (pre-IPM or IPM); sometimes they may add these themselves or add them as tasks]
+
+**Design Notes**<br>
+[prototype/design link inserted here; linking to a folder of a feature is good so designers can continue updating designs without anyone having to re-update the links to each design in the stories]
+
 ---
 
 ## Story Pointing
@@ -97,5 +118,24 @@ When a story has multiple items listed in the 'what' category, consider making e
 > 
 > 1. As a customer I want to create an order
 > 2. As a customer I want to pay for my order using a credit card
+
+
+**Story splitting strategies:** 
+- Simplest thing that could possibly work 
+- Defer optional behavior (If this does not work, will it be an URGENT defect?) 
+- Separate business variations
+- Outside-in features
+- Incrementally source data (Hard code data first, then add database, etc.) 
+
+1. **Problem:** Someone says “A story that small has no user value” <br>
+**Intervention:** Stories should evolve the software by adding functionality incrementally.
+1. **Problem:** Deferring deployment <br>
+**Intervention:** Deploying to production should happen early (first week) and often (daily)
+1. **Problem:** Deferring non-functional requirements <br>
+**Intervention:** Never compromise on quality, define performance requirements in the user story and write automated tests for these requirements 
+1. **Problem:** Slicing by component <br>
+**Intervention:** Identify the core behavior and creating the simplest end-to-end solution
+1. **Problem:** Slicing too early <br>
+**Intervention:** Only slice a feature if it’s needed within the next two calendar weeks
 
 
